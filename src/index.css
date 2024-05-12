@@ -13,3 +13,12 @@
 
 
 }
+
+
+.sidebar ::-webkit-scrollbar{
+  width: 10px !important;
+}
+ /* {
+  width: 20px;
+  height: 2em;
+} */

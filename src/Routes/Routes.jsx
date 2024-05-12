@@ -4,17 +4,17 @@ import Home from '../Pages/Home';
 import About from '../Pages/About';
 import User from '../Pages/User';
 
-const Routes = () => {
+const AppRoutes = () => {
   return (
     
     <Routes>
-      <Route path='/' Component={Home}>Home</Route>
-      <Route path='/about' Component={About}>Home</Route>
-      <Route path='/user' Component={User}>Home</Route>
+      <Route path='/' Component={Home}></Route>
+      <Route path='/about' Component={About}></Route>
+      <Route path='/user' Component={User}></Route>
 
     </Routes>
    
   )
 }
 
-export default Routes
+export default AppRoutes
